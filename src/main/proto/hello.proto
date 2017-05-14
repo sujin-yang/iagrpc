@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_outer_classname = "HelloGrpcProto";
+
+package au.com.iag.hackday.grpc.hello;
+
+message HelloRequest {
+    string clientName = 1;
+}
+
+message HelloResponse {
+    string welcomeMessage = 1;
+}
+
