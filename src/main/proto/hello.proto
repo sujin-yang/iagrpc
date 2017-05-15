@@ -3,7 +3,9 @@ syntax = "proto3";
 option java_multiple_files = true;
 option java_outer_classname = "HelloGrpcProto";
 
-package au.com.iag.hackday.grpc.hello;
+package Protocol.hello;
+/* java package*/
+option java_package = "au.com.iag.hackday.grpc.proto.hello";
 
 message HelloRequest {
     string clientName = 1;
