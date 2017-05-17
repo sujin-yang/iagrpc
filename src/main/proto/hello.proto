@@ -15,3 +15,7 @@ message HelloResponse {
     string welcomeMessage = 1;
 }
 
+message HelloResponse2 {
+    string welcomeMessage = 1;
+}
+
